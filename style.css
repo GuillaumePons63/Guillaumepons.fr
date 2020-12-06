@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('fonts/Pacifico/pacifico-webfont.woff2') format('woff2'),
+         url('fonts/Pacifico/pacifico-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cantarell';
+    src: url('fonts/cantarell/Cantarell-Regular-webfont.eot');
+    src: url('fonts/cantarell/Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/cantarell/Cantarell-Regular-webfont.woff2') format('woff2'),
+         url('fonts/cantarell/Cantarell-Regular-webfont.woff') format('woff'),
+         url('fonts/cantarell/Cantarell-Regular-webfont.ttf') format('truetype'),
+         url('fonts/cantarell/Cantarell-Regular-webfont.svg#cantarellregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amadeusregular';
+    src: url('fonts/amadeus/Amadeus-webfont.eot');
+    src: url('fonts/amadeus/Amadeus-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/amadeus/Amadeus-webfont.woff2') format('woff2'),
+         url('fonts/amadeus/Amadeus-webfont.woff') format('woff'),
+         url('fonts/amadeus/Amadeus-webfont.ttf') format('truetype'),
+         url('fonts/amadeus/Amadeus-webfont.svg#amadeusregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body
+    {background-color: #51AA72;
+        padding: 0;
+        margin: 0;}
+#blocpage
+    {width: 85%;
+        position: center;
+        background-color: antiquewhite;
+        margin: auto;
+        padding: 20px;}
+p, strong
+    {color : black;
+        font-family: cantarell,Trebuchet,serif;
+        font-size : 1em;
+        font-weight: normal;
+        text-align: justify;}
+
+header
+    {background-image:url(images/bannierre.jpeg);
+    background-size: 100%;
+    height: 250px;
+    margin: 0;}
+header p
+    {color: white;
+        font-family:pacificoregular,"times new roman",sans-serif;
+        font-size: 1.3em;
+        text-align: right;
+        padding-right: 60px;}
+
+h1
+    {color: white;
+        font-family:amadeusregular,Trebuchet,serif;
+        font-size:4em;
+        text-align: right;
+        padding-right: 100px;
+        margin-top: 0;}
+h2
+    {font-family: amadeusregular,"times new roman",serif;
+        font-size:2em;
+        text-align:center;
+        margin-top: 0;
+        padding-top: 0;}
+h3
+    {font-family:pacificoregular,trebuchet,serif;
+        font-size:1.3em;
+        padding-left:20px;}        
+h4
+    {text-align:center;}
+
+
+section
+    {display:flex;
+        padding:10px;}
+article
+    {flex:2.80;
+        padding:10px;}
+aside
+    {flex:1;
+        background-color:#51AA72;
+        border-radius: 10px;
+        padding : 2em 1em 3em 1em; 
+        border:4px solid black;
+        margin: auto;}
+aside img
+{border-radius: 160px;
+    display:block;
+    margin: auto;
+    padding: inherit;}
+iframe
+    {display: block;
+        margin: auto;}
+
+.mobile
+    {display:none;}
+
+footer
+    {display:flex;
+        justify-content:space-around;
+        margin-top: 50px;
+        border-top: 3px solid black;}
+footer a
+    {display: block;
+        padding: 15px 40px;
+        margin:20px;
+        background: #51AA72;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 18px;
+        text-align:center;
+        position:relative;}
+footer a:hover 
+    {background: black;
+    color: white;}
+
+   
+
+@media all and (max-width: 1024px)
+         {#blocpage
+            {width:100%;
+            margin:0;
+            padding: 0;}
+
+        header h1
+            {font-size:2em;
+            padding-right:30px;}
+        
+        header p
+             {padding-right:20px;}
+
+        header 
+            {font-size:0.7em;
+            height:125px;
+            padding: 0px;
+            margin:0;}    
+        section
+            {flex-direction: column;}
+        .mobile
+            {display:block;
+            text-align: center;
+            margin-top:50px;
+            font-size:1.3em;}    
+        footer
+            {flex-direction: column;} }

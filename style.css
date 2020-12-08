@@ -85,10 +85,12 @@ h4
 
 section
     {display:flex;
-        padding:10px;}
+        padding:10px;
+        margin:auto;}
 article
     {flex:2.80;
-        padding:10px;}
+        padding:10px;
+        margin:auto;}
 aside
     {flex:1;
         background-color:#51AA72;
@@ -127,7 +129,10 @@ footer a:hover
     {background: black;
     color: white;}
 
-   
+.aside
+
+    {display:flex;
+        flex-direction:column;}
 
 @media all and (max-width: 1024px)
          {#blocpage
@@ -156,3 +161,4 @@ footer a:hover
             font-size:1.3em;}    
         footer
             {flex-direction: column;} }
+

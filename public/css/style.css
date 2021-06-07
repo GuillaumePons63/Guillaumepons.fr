@@ -202,6 +202,10 @@ aside img {
   display: block;
   margin: auto;
   padding: inherit;
+  transition: transform 200ms ease;
+}
+aside img:hover {
+  transform: scale(1.2);
 }
 
 iframe {

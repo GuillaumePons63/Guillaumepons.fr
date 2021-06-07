@@ -1,0 +1,115 @@
+header {
+  background-image: url("../images/bannierre.jpeg");
+  background-size: 100%;
+  height: 250px;
+  margin: 0;
+}
+
+header p {
+  color: $font-color-secondary;
+  font-family: $font-title-secondary;
+  font-size: 1.3em;
+  text-align: right;
+  padding-right: 60px;
+}
+
+section {
+  display: flex;
+  padding: 10px;
+  margin: auto;
+}
+
+article {
+  flex: 2.8;
+  padding: 10px;
+  margin: auto;
+}
+
+aside {
+  flex: 1;
+  background-color: #51aa72;
+  border-radius: 10px;
+  padding: 2em 1em 3em 1em;
+  border: 4px solid black;
+  margin: auto;
+}
+
+aside img {
+  border-radius: 160px;
+  display: block;
+  margin: auto;
+  padding: inherit;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+.mobile {
+  display: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  border-top: 3px solid black;
+}
+footer a {
+  display: block;
+  padding: 15px 40px;
+  margin: 20px;
+  background: $color-background-primary;
+  color: $font-color-secondary;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+}
+footer a:hover {
+  background: $font-color-primary;
+  color: $font-color-secondary;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (max-width: 1024px) {
+  #blocpage {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  header h1 {
+    font-size: 2em;
+    padding-right: 30px;
+  }
+
+  header p {
+    padding-right: 20px;
+  }
+
+  header {
+    font-size: 0.7em;
+    height: 125px;
+    padding: 0px;
+    margin: 0;
+  }
+  section {
+    flex-direction: column;
+  }
+  .mobile {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.3em;
+  }
+  footer {
+    flex-direction: column;
+  }
+}

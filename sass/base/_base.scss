@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "pacificoregular";
+  src: url("../fonts/Pacifico/pacifico-webfont.woff2") format("woff2"),
+    url("../fonts/Pacifico/pacifico-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "cantarell";
+  src: url("../fonts/cantarell/Cantarell-Regular-webfont.eot");
+  src: url("../fonts/cantarell/Cantarell-Regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/cantarell/Cantarell-Regular-webfont.woff2") format("woff2"),
+    url("../fonts/cantarell/Cantarell-Regular-webfont.woff") format("woff"),
+    url("../fonts/cantarell/Cantarell-Regular-webfont.ttf") format("truetype"),
+    url("../fonts/cantarell/Cantarell-Regular-webfont.svg#cantarellregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "amadeusregular";
+  src: url("../fonts/amadeus/Amadeus-webfont.eot");
+  src: url("../fonts/amadeus/Amadeus-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/amadeus/Amadeus-webfont.woff2") format("woff2"),
+    url("../fonts/amadeus/Amadeus-webfont.woff") format("woff"),
+    url("../fonts/amadeus/Amadeus-webfont.ttf") format("truetype"),
+    url("../fonts/amadeus/Amadeus-webfont.svg#amadeusregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: $color-background-primary;
+  padding: 0;
+  margin: 0;
+}
+
+#blocpage {
+  width: 85%;
+  position: center;
+  background-color: $color-background-secondary;
+  margin: auto;
+  padding: 20px;
+}
+
+p,
+strong {
+  color: $font-color-primary;
+  font-family: $font-primary;
+  font-size: 1em;
+  font-weight: normal;
+  text-align: justify;
+}
+
+h1 {
+  color: $font-color-secondary;
+  font-family: $font-title-primary;
+  font-size: 4em;
+  text-align: right;
+  padding-right: 100px;
+  margin-top: 0;
+}
+h2 {
+  font-family: $font-title-primary;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+h3 {
+  font-family: $font-title-secondary;
+  font-size: 1.3em;
+  padding-left: 20px;
+}
+h4 {
+  text-align: center;
+}

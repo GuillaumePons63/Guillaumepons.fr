@@ -1,0 +1,15 @@
+footer a {
+  display: block;
+  padding: 15px 40px;
+  margin: 20px;
+  background: $color-background-primary;
+  color: $font-color-secondary;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+}
+footer a:hover {
+  background: $font-color-primary;
+  color: $font-color-secondary;
+}

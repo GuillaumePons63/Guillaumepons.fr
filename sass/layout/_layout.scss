@@ -19,6 +19,11 @@ section {
   margin: auto;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 article {
   flex: 2.8;
   padding: 10px;
@@ -56,21 +61,6 @@ footer {
   justify-content: space-around;
   margin-top: 50px;
   border-top: 3px solid black;
-}
-footer a {
-  display: block;
-  padding: 15px 40px;
-  margin: 20px;
-  background: $color-background-primary;
-  color: $font-color-secondary;
-  font-weight: bold;
-  font-size: 18px;
-  text-align: center;
-  position: relative;
-}
-footer a:hover {
-  background: $font-color-primary;
-  color: $font-color-secondary;
 }
 
 .aside {
